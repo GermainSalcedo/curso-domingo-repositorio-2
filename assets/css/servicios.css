@@ -1,0 +1,16 @@
+.servicios-container{
+display: grid;
+grid-template-columns: auto auto auto;
+gap: 20px;
+line-height: 1.2em;
+}
+.servicios-container col {
+    padding-top: 200px;
+}
+.servicios-container h3 {
+    font-size: 26px;
+    color: var(--red);
+}
+.servicios-container i {
+    font-size: 100px;
+}
