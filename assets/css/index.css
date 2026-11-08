@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Special+Elite&family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
 @import url(menu.css);
 @import url(quienes-somos.css);
 @import url(servicios.css);
 @import url(footer.css);
+@import url(contacto.css);
 :root{
 --main-color: #000000;
 --carmin: #830000;
@@ -18,10 +19,15 @@
 body{
 padding: 0;
 margin: 0;
-background-color: var(--blank-yellow);
-font-family: "Cormorant Unicase", serif;
-  font-weight: 400;
+background-color: red;
+background-image: url(/assets/images/renaultt.jpg);
+
+background-position: center;
+background-repeat:no-repeat;
+font-family: "Archivo", sans-serif;
+  font-weight: 400px;
   font-style: normal;
+  box-sizing: border-box;
 }
 ul{
     list-style: none;
@@ -33,9 +39,14 @@ a{
 h2{
     font-size: 30px;
     font-weight: 200px;
+    color: white;
+    padding-left: 50px;
+    padding-top: 120px;
 }
 p{
     font-size: 20px;
+    color: white;
+    padding-left: 50px;
 }
 .center{
     text-align: center;
@@ -44,5 +55,5 @@ p{
     text-transform: uppercase;
 }
 .carmin-text {
-    color: var(--carmin);
+    color: white;
 }

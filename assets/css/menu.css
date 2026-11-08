@@ -1,25 +1,25 @@
 .header-container{
-background-color: var(--main-color);
+background-color: rgba(232, 232, 232, 0.906);
 padding-top: 10px;
-height: 220px;
+height: 180px;
 }
 .logo{
-width: 120px;
-height: auto;
-padding-top: 5px;
-padding-bottom: 20px;
-padding-left: 20px;
+width: 130px;
+height:fit-content;
+padding-top: 1px;
+padding-bottom: 1px;
+padding-left: 1px;
 }
 .navbar{
 display: flex;
 justify-content: space-between;
 align-items: center;
-margin: 1rem 1.5rem;
+
 padding-top: 15px;
 }
 .navbar-links{
-    color: var(--blank-yellow);
-    font-weight: 800;
+    color: black;
+    font-weight: 400;
     text-transform: uppercase;
     text-decoration: none;
     display: flex;
@@ -27,7 +27,7 @@ padding-top: 15px;
      font-size: 1.2rem;
 }
 .navbar-links li a{
-    color: var(--blank-yellow);
+    color: black;
 }
 .navbar-links li a:hover{
     color: var(--red);
