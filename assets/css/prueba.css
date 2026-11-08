@@ -1,0 +1,115 @@
+body{
+padding: 0;
+margin: 0;
+background-image: url(/assets/images/pista.png);
+background-position: center;
+background-repeat:no-repeat;
+background-size: 4000px;
+box-sizing: border-box;
+}.mario{
+    width: 300px;
+    animation: mario;
+    animation-duration: 12s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+@keyframes mario{
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+top: 0px;
+left: 3700px;
+    }
+}
+.luigi{
+    width: 400px;
+    animation: luigi;
+    animation-duration: 9s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+@keyframes luigi{
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+top: 0px;
+left: 3700px;
+    }
+}
+.peach{
+    width: 400px;
+    animation: peach;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+@keyframes peach{
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+top: 0px;
+left: 3700px;
+    }
+}
+.wario{
+    width: 450px;
+    animation: wario;
+    animation-duration: 7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+@keyframes wario{
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    100% {
+top: 0px;
+left: 3700px;
+    }
+}
+#box {
+    transition: 2s;
+    transition-timing-function: ease-in;
+}
+#box1:hover {
+    background-color: rgba(165, 42, 42, 0.372);
+}
+#box {
+    transition: 2s;
+    transition-timing-function: ease-in;
+}
+#box2:hover {
+    background-color: rgba(165, 42, 42, 0.372);
+}
+#box {
+    transition: 2s;
+    transition-timing-function: ease-in;
+}
+#box3:hover {
+    background-color: rgba(165, 42, 42, 0.372);
+}
+#box {
+    transition: 2s;
+    transition-timing-function: ease-in;
+}
+#box4:hover {
+    background-color: rgba(165, 42, 42, 0.372);
+}
+#box {
+    transition: 2s;
+    transition-timing-function: ease-in;
+}
+#box2:hover {
+    background-color: rgba(165, 42, 42, 0.372);
+}

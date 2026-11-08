@@ -1,0 +1,38 @@
+box{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    animation: box;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+    position: relative;
+
+}
+@keyframes box{
+    0% {
+        background-color: grey;
+        top: 0px;
+        left: 0px;
+    }
+    25% {
+        background-color: blue;
+        top: 0px;
+        left: 750px;
+    }
+    50% {
+        background-color: red;
+        top: 500px;
+        left: 750px;
+    }
+    75% {
+        background-color: yellow;
+        top: 500px;
+        left: 0px;
+    }
+    100% {
+        background-color: purple;#
+top: 0px;
+left: 0px;
+    }
+}
